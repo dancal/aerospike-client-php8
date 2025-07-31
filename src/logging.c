@@ -1,6 +1,6 @@
-#include "aerospike_class.h"
-#include "php_aerospike_types.h"
-#include "logging.h"
+#include "include/aerospike_class.h"
+#include "include/php_aerospike_types.h"
+#include "include/logging.h"
 #include "aerospike/as_log.h"
 
 

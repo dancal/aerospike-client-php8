@@ -19,21 +19,21 @@
 #include "php.h"
 #include "php_ini.h"
 #include "ext/standard/info.h"
-#include "php_aerospike.h"
+#include "include/php_aerospike.h"
 
-#include "conversions.h"
+#include "include/conversions.h"
 #include "aerospike/aerospike.h"
 #include "aerospike_class.h"
-#include "php_aerospike_types.h"
-#include "register_policy_constants.h"
-#include "register_constants.h"
-#include "policy_conversions.h"
-#include "logging.h"
-#include "persistent_list.h"
-#include "tls_config.h"
+#include "include/php_aerospike_types.h"
+#include "include/register_policy_constants.h"
+#include "include/register_constants.h"
+#include "include/policy_conversions.h"
+#include "include/logging.h"
+#include "include/persistent_list.h"
+#include "include/tls_config.h"
 #include "zend_exceptions.h"
 #include <stdbool.h>
-#include "aerospike_session.h"
+#include "include/aerospike_session.h"
 // SETUP FUNCTIONS
 
 

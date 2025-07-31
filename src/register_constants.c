@@ -1,9 +1,9 @@
 /*constants.c*/
-#include "register_constants.h"
+#include "include/register_constants.h"
 #include "aerospike/as_status.h"
 #include "aerospike/aerospike_index.h"
 #include "aerospike/as_operations.h"
-#include "php_aerospike_types.h"
+#include "include/php_aerospike_types.h"
 //int zend_declare_class_constant_long ( zend_class_entry* ce, char* name, size_t name_length, long value, magic TSRMLS_DC 
 
 #define AEROSPIKE_STATUS_ARR_SIZE (sizeof(aerospike_status)/sizeof(AerospikeStatus))

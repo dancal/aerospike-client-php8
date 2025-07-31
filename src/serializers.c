@@ -1,7 +1,7 @@
-#include "serializers.h"
+#include "include/serializers.h"
 #include "aerospike/as_error.h"
-#include "aerospike_class.h"
-#include "php_aerospike_types.h"
+#include "include/aerospike_class.h"
+#include "include/php_aerospike_types.h"
 
 
 as_status serialize_with_user_function(const zval* zval_to_serialize, as_bytes** serialized_bytes, as_error* err, int serializer_type) {
