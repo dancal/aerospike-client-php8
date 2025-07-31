@@ -7,12 +7,12 @@
 #include "php_ini.h"
 #include "ext/standard/info.h"
 #include "php_aerospike.h"
-#include "aerospike_session.h"
+#include "include/aerospike_session.h"
 
 // Aerospike PHP client includes
-#include "php_aerospike_types.h"
-#include "aerospike_class.h"
-#include "persistent_list.h"
+#include "include/php_aerospike_types.h"
+#include "include/aerospike_class.h"
+#include "include/persistent_list.h"
 // #include "include/constants.h"
 
 
