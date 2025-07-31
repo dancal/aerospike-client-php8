@@ -4,12 +4,12 @@
  * and vice versa. These are internal to the extension and should not be exposed directly
  * to the user.
  */
-#include "conversions.h"
+#include "include/conversions.h"
 #include <stdbool.h>
 #include "ext/standard/php_var.h"
 #include <zend_smart_str.h>
-#include "serializers.h"
-#include "php_aerospike_types.h"
+#include "include/serializers.h"
+#include "include/php_aerospike_types.h"
 #include "aerospike/as_record_iterator.h"
 #include "aerospike/as_bin.h"
 
