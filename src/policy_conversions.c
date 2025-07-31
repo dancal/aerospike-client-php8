@@ -1,8 +1,8 @@
 /*policy_conversions.c*/
 
+#include "php_ini.h"
+#include "php_aerospike.h"
 #include "include/policy_conversions.h"
-#include "include/php_ini.h"
-#include "include/php_aerospike.h"
 #include "include/php_aerospike_types.h"
 
 /* Static functions */
