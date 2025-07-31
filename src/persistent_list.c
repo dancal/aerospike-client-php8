@@ -1,5 +1,5 @@
-#include "persistent_list.h"
-#include "php_aerospike.h"
+#include "include/persistent_list.h"
+#include "include/php_aerospike.h"
 
 #define MAX_PORT_SIZE 6
 #define MAX_SHM_SIZE 19
